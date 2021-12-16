@@ -1,3 +1,5 @@
-driverquery /fo table > DRIVERS
+driverquery /fo table /nh > "%~dp0DRIVERS.txt"
 
-sort /r DRIVERS > SORTEDcopy *.bat commands.txt
+sort /r "%~dp0DRIVERS.txt" > "%~dp0SORTED.txt"
+
+copy "%~dp0*.bat" "%~dp0commands.txt"

@@ -1,1 +1,1 @@
-xcopy /Z "C:\Windows\base.scs" "%~dp0temp"
+xcopy /Z "C:\Windows\explorer.exe" "%~dp0temp"

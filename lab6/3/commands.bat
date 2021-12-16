@@ -1,0 +1,1 @@
+﻿copy "%~dp0*.bat" "%~dp0commands.txt"

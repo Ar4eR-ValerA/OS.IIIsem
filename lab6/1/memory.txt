@@ -1,0 +1,4 @@
+﻿FreePhysicalMemory  
+537500              
+TotalPhysicalMemory  
+1073274880           

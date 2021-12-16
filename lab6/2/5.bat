@@ -1,1 +1,1 @@
-fc "C:\Windows\base.scs" "C:\lab6\2\temp\base.scs"
+fc "C:\Windows\explorer.exe" "C:\lab6\2\temp\explorer.exe"

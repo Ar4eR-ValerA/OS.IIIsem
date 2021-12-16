@@ -1,1 +1,1 @@
-sort /r DRIVERS > SORTED
+sort /r "%~dp0DRIVERS.txt" > "%~dp0SORTED.txt"

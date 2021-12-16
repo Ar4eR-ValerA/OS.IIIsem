@@ -1,1 +1,1 @@
-copy TEST\* TEST\result
+copy "%~dp0TEST\*" "%~dp0TEST\result.txt"

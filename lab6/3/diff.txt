@@ -1,0 +1,46 @@
+﻿Comparing files C:\WINDOWS\LAB6\3\services.txt and C:\WINDOWS\LAB6\3\SERVICES2.TXT
+***** C:\WINDOWS\LAB6\3\services.txt
+SERVICE_NAME: AeLookupSvc
+SERVICE_NAME: Appinfo
+SERVICE_NAME: AudioEndpointBuilder
+***** C:\WINDOWS\LAB6\3\SERVICES2.TXT
+SERVICE_NAME: Appinfo
+SERVICE_NAME: AudioEndpointBuilder
+*****
+
+***** C:\WINDOWS\LAB6\3\services.txt
+SERVICE_NAME: Browser
+SERVICE_NAME: clr_optimization_v4.0.30319_32
+SERVICE_NAME: CryptSvc
+***** C:\WINDOWS\LAB6\3\SERVICES2.TXT
+SERVICE_NAME: Browser
+SERVICE_NAME: CryptSvc
+*****
+
+***** C:\WINDOWS\LAB6\3\services.txt
+SERVICE_NAME: DiagTrack
+SERVICE_NAME: Dnscache
+SERVICE_NAME: DPS
+***** C:\WINDOWS\LAB6\3\SERVICES2.TXT
+SERVICE_NAME: DiagTrack
+SERVICE_NAME: DPS
+*****
+
+***** C:\WINDOWS\LAB6\3\services.txt
+SERVICE_NAME: sppsvc
+SERVICE_NAME: SSDPSRV
+***** C:\WINDOWS\LAB6\3\SERVICES2.TXT
+SERVICE_NAME: sppsvc
+SERVICE_NAME: sppuinotify
+SERVICE_NAME: SSDPSRV
+*****
+
+***** C:\WINDOWS\LAB6\3\services.txt
+SERVICE_NAME: WdiServiceHost
+SERVICE_NAME: WdiSystemHost
+SERVICE_NAME: WinDefend
+***** C:\WINDOWS\LAB6\3\SERVICES2.TXT
+SERVICE_NAME: WdiServiceHost
+SERVICE_NAME: WinDefend
+*****
+

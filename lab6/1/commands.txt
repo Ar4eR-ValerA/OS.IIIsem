@@ -1,5 +1,13 @@
-wmic OS get Version > version
-wmic OS get FreePhysicalMemory > memory
-wmic ComputerSystem get TotalPhysicalMemory >> memory
-wmic LogicalDisk get DeviceID > disksmkdir TEST
-copy * TESTcopy TEST\* TEST\resultfor /f "skip=1" %%f in ('dir TEST /a:-d /b /o:-d') do del TEST\%%fcopy *.bat commands.txt
+wmic OS get Version > "%~dp0version.txt"
+wmic OS get FreePhysicalMemory > "%~dp0memory.txt"
+wmic ComputerSystem get TotalPhysicalMemory >> "%~dp0memory.txt"
+wmic LogicalDisk get DeviceID > "%~dp0disks.txt"
+
+mkdir "%~dp0TEST"
+copy "%~dp0*.txt" "%~dp0TEST"
+
+copy "%~dp0TEST\*" "%~dp0TEST\result.txt"
+
+for /f "skip=1" %%f in ('dir "%~dp0TEST" /a:-d /b /o:-d') do del "%~dp0TEST\%%f"
+
+copy "%~dp0*.bat" "%~dp0commands.txt"

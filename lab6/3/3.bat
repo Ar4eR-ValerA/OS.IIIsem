@@ -1,0 +1,1 @@
+﻿fc "%~dp0services.txt" "%~dp0services2.txt" > "%~dp0diff.txt"

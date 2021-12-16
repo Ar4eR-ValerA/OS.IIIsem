@@ -1,0 +1,10 @@
+﻿DeviceID  
+C:        
+D:        
+E:        
+FreePhysicalMemory  
+537500              
+TotalPhysicalMemory  
+1073274880           
+Version   
+6.1.7601  

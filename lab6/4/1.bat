@@ -1,1 +1,1 @@
-driverquery /fo table > DRIVERS
+driverquery /fo table /nh > "%~dp0DRIVERS.txt"

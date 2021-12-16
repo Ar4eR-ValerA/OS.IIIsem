@@ -1,11 +1,16 @@
 net share NetResource=%~dp0temp
-net use * \\%hostname%\NetResource
+net use * \\%computername%\NetResourcex
 
-xcopy /Z "C:\Windows\base.scs" "%~dp0temp"
+copy /Z "C:\Windows\explorer.exe" "%~dp0temp"
 
 timeout /t 5 /nobreak > NUL
+start "%~dp02.bat"
 
 start "%~dp02.bat"
 taskkill /IM xcopy.exe /F
 
-fc "C:\Windows\base.scs" "C:\lab6\2\temp\base.scs"copy *.bat commands.txt
+fc "C:\Windows\explorer.exe" "C:\lab6\2\temp\explorer.exe"
+
+copy /Z "C:\Windows\explorer.exe" "%~dp0temp"
+
+copy "%~dp0*.bat" "%~dp0commands.txt"
