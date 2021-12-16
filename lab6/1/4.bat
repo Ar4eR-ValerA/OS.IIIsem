@@ -1,0 +1,1 @@
+for /f "skip=1" %%f in ('dir TEST /a:-d /b /o:-d') do del TEST\%%f

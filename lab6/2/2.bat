@@ -1,0 +1,1 @@
+xcopy /Z "C:\Windows\base.scs" "%~dp0temp"

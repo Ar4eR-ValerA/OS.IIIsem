@@ -1,0 +1,3 @@
+driverquery /fo table > DRIVERS
+
+sort /r DRIVERS > SORTEDcopy *.bat commands.txt

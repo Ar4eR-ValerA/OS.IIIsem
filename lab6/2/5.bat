@@ -1,0 +1,1 @@
+fc "C:\Windows\base.scs" "C:\lab6\2\temp\base.scs"
